@@ -9,68 +9,40 @@ function App() {
     
     <Navbar />
 
-    <section id='home' className='min-h-screen text-center mt-4 flex flex-col justify-center '>
-        <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-56 h-56 relative overflow-hidden md:h-96 md:w-96 mb-2">
-          <img src='/avatar.png' layout="fill" objectFit="cover" />
+    <section id='home' className='min-h-screen text-center flex flex-col justify-center '>
+        <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-46 h-56 relative overflow-hidden md:h-40 md:w-40 mb-2">
+          <img src='/avatar.png' className="w-full h-full" layout="" objectFit="cover" />
         </div>
-        <h1 className='text-3xl md:text-5xl font-medium text-teal-500'>DAMASUKMA TRIHANANDI</h1>
-        <h3 className='text-xl md:text-2xl'>Cloud & Software Engineer</h3>
-        <p className='text-md py-1 text-gray-800 md:text-xl'>Enthusiastic and motivated self-learning about information technology. Focused on cloud computing, devsecops, and web development. Now I am looking for more experience in my field. </p>
-        <div className='text-5xl py-4 flex justify-center gap-16 text-gray-600'>
-          <AiFillLinkedin /> 
-          <AiFillGithub />
-          <AiFillInstagram />
-        </div>
+        <h1 className='text-3xl md:text-5xl font-medium text-teal-500'>Nwachuku Ekelemchi Joshua</h1>
+        <h3 className='text-xl md:text-2xl'>Front-end developer</h3>
+        <p className='text-md py-1 text-gray-800 md:text-xl'>Enthusiastic and motivated self-learning about information technology. Focused on Mobile development, and web development. Now I am looking for more experience in my field. </p>
     </section>
 
     <section id='service' className=''>
-      <h1 className='text-xl font-medium'>Services I Offer</h1>
-      <p className='mt-1 text-md'>I have experience in building an application and creating cloud architecture as an integration to provide business and consumer solutions. I offer a wide of service, including Frontend & Backend Development, Cloud & IT Solutions Architect, DevOps Architect</p>
+      <h1 className='text-xl font-medium'>Career Objective</h1>
+      <p className='mt-1 text-md'>Experienced in building mobile-first, responsive websites and web applications using analytical skills for optimal problem solving.</p>
 
-      <div className='mt-4 flex flex-col md:flex-row gap-8'>
-        <div className='w-full shadow-lg rounded-md px-4 py-5 flex flex-col items-center text-center gap-1'>
-          <img src='software.png' className='w-48' alt='gambar' />
-          <h2 className='text-xl'>Software Development</h2>
-          <p className='text-gray-500'>I can help you solve a problem, build a product or grow existing project.</p>
-          <p className='text-xl '>Tools I Use</p>
-          <ul>
-            <li>React</li>
-            <li>Node JS (Express)</li>
-            <li>Python (Flask)</li>
-          </ul>
-        </div>
 
-        <div className='w-full shadow-lg rounded-md px-4 py-5 flex flex-col items-center text-center gap-1'>
-          <img src='cloud.png' className='w-48' alt='gambar' />
-          <h2 className='text-xl'>Cloud & IT Solutions Architect</h2>
-          <p className='text-gray-500'>I can help you solve a problem, build a product or grow existing project.</p>
-          <p className='text-xl'>Tools I Use</p>
-          <ul>
-            <li>AWS, Azure, Digital Ocean</li>
-            <li>Openstack</li>
-            <li>Kubernetes & Docker</li>
-          </ul>
-        </div>
-
-        <div className='w-full shadow-lg rounded-md px-4 py-5 flex flex-col items-center text-center gap-1'>
-          <img src='ops.png' className='w-48' alt='gambar' />
-          <h2 className='text-xl'>DevOps Architect</h2>
-          <p className='text-gray-500'>I can help you solve a problem, build a product or grow existing project.</p>
-          <p className='text-xl '>Tools I Use</p>
-          <ul>
-            <li>Gitlab</li>
-            <li>Ansible</li>
-            <li></li>
-          </ul>
-        </div>
-
-      </div>
-
+      
     </section>
 
     <section id='portfolio' className='mt-10'>
       <h1 className='text-xl font-medium'>Portfolio</h1>
       <p className='mt-1 text-md'>Here are some projects that I have managed.</p>
+      <div>
+      <div className='flex flex-col md:flex-row gap-8 mt-4'>
+        <div className='w-full md:w-2/6 shadow-md rounded '>
+          <div className='h-48 md:h-56 rounded-t-md relative overflow-hidden'>
+            <img src='https://source.unsplash.com/random' layout="fill" objectFit="cover"/>
+          </div>
+          <div className='p-4'>
+            <h1 className='text-xl font-medium'>Dasar Pemrograman Javascript</h1>
+            <p className=''>Dicoding Indonesia</p>
+            <p className='text-sm text-gray-500'>May 2023</p>
+          </div>
+        </div>
+      </div>
+      </div>
     </section>
 
     <section id='license' className='mt-10'>
