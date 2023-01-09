@@ -3,7 +3,7 @@ import {AiFillLinkedin, AiFillGithub, AiFillInstagram,} from 'react-icons/ai'
 export default function Navbar(){
     return (
         <nav className="fixed top-0 left-0 w-full bg-white shadow-sm px-8 md:px-20 lg:px-40 py-4 flex justify-between items-center z-20">
-            <h1 className="font-burtons text-lg"></h1>
+            <h1 className="font-burtons text-lg"></h1>b
             <ul className="flex items-center space-x-6">
                 <li><BsFillMoonStarsFill /></li>
                 
